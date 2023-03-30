@@ -1,0 +1,8 @@
+In order to reduce risks, we only included relevant functionalities within the site. In order to ensure that every component is always up to date
+with the latest security patch, we implemented an automated update process. This protects us against zero day vulnerabilites, as well as any
+previously unpatched vulnerabilities. A previously discovered vulnerability within the website was returning detailed error codes which displayed 
+information that could be used to gain a foothold within the site. This has been patched and a generic error message is now displayed. 
+Another vulnerability allowed attackers to list all the directories available within the site. This could be dangerous if an attacker manages to 
+find a root directory which has no security configurations. This is not an issue since we ensured there are no directories that can be accessed 
+throught the site that may be utilized to further establish a foothold. However, it is still a risk that we have to address. 
+
