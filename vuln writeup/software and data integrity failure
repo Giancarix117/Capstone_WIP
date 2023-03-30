@@ -1,3 +1,4 @@
 Using public libraries provides many benefits, but it also paves the way for possible vulnerabilites. Malicious libraries, as well as attacks 
 through existing libraries is always a possibility. This is why we removed unused libraries, as well as thoroughly research the libraries we choose.
 Running constant updates to ensure the libraries are up to date is also really important, since you never know ehen a new vulnerability might appear.
+Use digital signatures or similar mechanisms to verify the software or data is from the expected source and has not been altered.
