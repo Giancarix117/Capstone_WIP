@@ -1,0 +1,8 @@
+Cryptographic failure occurs whenever a web application exposes sensitive data due to a weak or a non-existent cryptographic algorithm. 
+At TIPL we circunvented this issue by utilizing google authentication, so no user passwords or PII (personal identifiable information) is being stored withing our databases. 
+The only things our databases store are emails, number of tokens, and previous queries that the users have executed. 
+On top of that, our SQL databases are encrypted with AES-256 bit encryption (regarded as one of the most reliable encrypton algorithms)
+, and we utilized a symmetric key which is stored safely. 
+https?
+certificate?
+SSL?
