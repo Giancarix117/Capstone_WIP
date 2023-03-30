@@ -1,0 +1,4 @@
+Users sign in through Google Authentication, which is a widespread login method that is highly secure, since Google handles the data storage 
+as well as the encryption. Since we dont directly store any passwords, Google Authentication takes a big load of us. In the scenario
+that a hacker manages to acquire the google sign on for a user, they wouldnt be able to do much besides having access to the user's tokens
+and previous queries. 
