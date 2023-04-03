@@ -23,3 +23,19 @@ We adopted three security principles that are the core of Google security
 ● Executing defense in depth, at scale, by default.
 ● Adopting the BeyondProd approach to infrastructure and application security.
 ● De-risking cloud adoption by moving toward a shared fate relationship.
+
+-Defense in depth
+there should never be
+just one barrier between an attacker and a target of interest. Adding to this core principle, security should
+be scalable, and security should be enabled by default.
+
+Data is protected by
+default through multiple layered defenses using policy and controls that are configured across
+networking, encryption, IAM, detection, logging, and monitoring services.
+
+As an example, the data in a production project by default has three levels of network protections: VPC
+segmentation, VPC service perimeters, and firewall rules and policies. Data is further protected by
+multiple levels of access protection using IAM, access context levels, and multi-factor validation of user
+identities.
+
+-BeyondProd
