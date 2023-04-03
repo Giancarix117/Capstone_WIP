@@ -1,1 +1,25 @@
-LOL
+Why did we choose GCP in terms of security?
+It is designed to provide security through the entire information processing lifecycle.
+This infrastructure provides secure deployment of services, secure storage of data with end-user privacy safeguards, 
+secure communications between services, secure and private communication with customers over the internet, 
+and safe operation by administrators.
+
+My roles:
+Security leader who needs to understand Google’s key principles for Cloud Security and how they
+can be applied and implemented to secure your own organization’s deployment
+
+Security engineer who needs to understand how to configure and operate multiple different
+security controls so that they correctly interact with one another
+
+Risk and compliance officer who needs to understand the controls available on Google Cloud to
+meet their business requirements and how those controls can be automatically deployed. You
+also need to have visibility into controls drift and areas that need additional attention to meet the
+regulatory needs of your business.
+
+
+COMPLIANCE
+
+We adopted three security principles that are the core of Google security
+● Executing defense in depth, at scale, by default.
+● Adopting the BeyondProd approach to infrastructure and application security.
+● De-risking cloud adoption by moving toward a shared fate relationship.
