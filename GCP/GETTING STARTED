@@ -40,3 +40,19 @@ multiple levels of access protection using IAM, access context levels, and multi
 identities.
 
 -BeyondProd
+
+BeyondProd utilizes the basis of zero trust. The perimeter based security model just isnt enough, since once there is a
+breach the attacker would have free access within the system. It decomposes historically large monolithic
+applications into microservices, thus increasing segmentation and isolation and limiting the impacted
+area, while also creating operational efficiencies and scalability.
+
+● Security is holistic and built in, not bolted on.
+● Protection of the network at the edge, while still required, is not the primary and not the only
+defense point.
+● No inherent mutual trust exists between services.
+● Trusted machines run code with known provenance.
+Google Cloud security foundations guide, v3 Page 15
+● Logical choke points are used for consistent policy enforcement across services—for example, to
+ensure authorized data access.
+● Change rollout is simple, automated, and standardized.
+● Isolation is enforced and monitored between workloads.
