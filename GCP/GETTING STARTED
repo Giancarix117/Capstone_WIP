@@ -56,3 +56,14 @@ Google Cloud security foundations guide, v3 Page 15
 ensure authorized data access.
 ● Change rollout is simple, automated, and standardized.
 ● Isolation is enforced and monitored between workloads.
+
+-shared fate
+https://www.forbes.com/sites/googlecloud/2022/04/19/demystifying-shared-fate-a-new-approach-to-understand-cybersecurity/
+Google Cloud Platform shifted from the shared responsibility to shared fate. This is a great approach for us since it 
+lessens the workload significantly. In shared responsibility, the customer and the provider are responsible for different
+assets.  Shared fate centers around the customer’s needs. Instead of shifting responsibility to customers who may not have the 
+expertise to properly manage it, the cloud provider uses its expertise to help the customer be secure in the cloud.
+In this case, shared fate approach helps us manage the risks we face by tapping into
+secure-by-default configurations, secure blueprints, secure policy hierarchies, consistent availability of advanced security features,
+and a high assurance attestation of controls.
+
