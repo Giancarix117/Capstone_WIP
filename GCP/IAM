@@ -1,4 +1,5 @@
 IAM (Identity Authentication Management) plays a crucial roll when it comes to security. By having a predefined set 
 of roles, we can combat things such as lateral movement (which is when hackers attempt to gain more foothold after 
 gaining access), priviledge escalation (with less priviledges, even if an account is compromised the attacker will
-be limited by the permissions of the account)
+be limited by the permissions of the account), and multiple other attack vectors. 
+It allows us to implement zero trust, where users only have access to things they explicitly need and nothing more.
