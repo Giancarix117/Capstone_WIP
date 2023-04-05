@@ -10,7 +10,34 @@ couldn't be too lenient and provide too much power to an account. If an account 
 we would be dealt a serious blow. 
 (CONFER WITHCHATGPT REGARDING THE ASSIGNMENT OF ROLES)
 What we handle:
-Security
-Deployment
+
+App Engine Admin - this role allows the user to create and manage App Engine applications, as well as deploy code to App Engine.
+
+Cloud SQL Admin - this role allows the user to create and manage Cloud SQL instances, which can be used to store data for the web app.
+
+Storage Object Admin - this role allows the user to create and manage Cloud Storage buckets, which can be used to store files and other data for the web app.
+
+Compute Instance Admin - this role allows the user to create and manage virtual machine instances on Compute Engine, which can be used to host the web app.
+
+Cloud Build Editor - this role allows the user to create and manage Cloud Build configurations, which can be used to automate the building and deployment of the web app.
+
+Service Account User - this role allows the user to interact with service accounts, which can be used to authenticate and authorize access to Google Cloud Platform resources.
+
+
+Security Reviewer - This role grants read-only access to security-related resources such as security policies, firewall rules, and audit logs. A user with this role can review and monitor the security of the web app without being able to make any changes.
+
+Security Admin - This role grants full access to security-related resources, allowing a user to create and manage security policies, firewall rules, and audit logs. However, this role should be granted only to trusted users who have expertise in security management.
+
+Network Admin - This role allows a user to create and manage network resources such as Virtual Private Cloud (VPC) networks, subnets, and firewalls. This role can be used to implement network security measures, such as creating a secure VPC network and configuring firewall rules to restrict access to the web app.
+
+IAM Admin - This role allows a user to create and manage IAM policies, including creating and managing roles and permissions. A user with this role can grant or revoke access to resources, which can help prevent unauthorized access to the web app.
+
+Cloud KMS Admin - This role allows a user to create and manage Cloud Key Management Service (KMS) resources, which can be used to encrypt and decrypt sensitive data. Encrypting sensitive data can help protect it from unauthorized access.
+
+Secret Manager Admin - This role allows a user to create and manage secrets, such as API keys, passwords, and certificates. A user with this role can ensure that sensitive data is stored securely and accessed only by authorized users and services.
+
+
+
+
 
 
