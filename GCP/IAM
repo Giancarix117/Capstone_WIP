@@ -3,3 +3,14 @@ of roles, we can combat things such as lateral movement (which is when hackers a
 gaining access), priviledge escalation (with less priviledges, even if an account is compromised the attacker will
 be limited by the permissions of the account), and multiple other attack vectors. 
 It allows us to implement zero trust, where users only have access to things they explicitly need and nothing more.
+
+Assigning roles was no small feat. Nowadays with the exceedingly intricate components of a web app, there is a good amount 
+of moving parts. We did not want to create too many servicea accounts, which would hinder us and slow us down, but we also
+couldn't be too lenient and provide too much power to an account. If an account with too many permissions is compromised, 
+we would be dealt a serious blow. 
+(CONFER WITHCHATGPT REGARDING THE ASSIGNMENT OF ROLES)
+What we handle:
+Security
+Deployment
+
+
