@@ -1,0 +1,26 @@
+Secure code review is a crucial part of web app development. At TIPL, we are strong believers in security by design. Ensuring that
+we prioritize security from the beginning is the best way to handle the situation, since it may be costly and time consuming
+to implement it later. The main points that have to be covered in secure code review are the following. 
+failures in identification, authentication and access control;
+potential exposure of sensitive data;
+inadequate error handling; and
+all types of injection flaws.
+
+I will now cover all of these in depth
+
+failures in identification, authentication and access control;
+
+Mishandling of identification and authentication can prove fatal for any web app out there. If an attacker manages to authenticate
+as a root user, the damage they can cause could be irreversible. However, with proper access control policies, even if they
+do manage to acquire root credentials, the damage could be kept to a minimum. With zero trust policies, each account is limited
+to things they need and nothing more. This prevents lateral movement and reduces the attack surface. 
+Furthermore, proper implementation of access control can help security personal pinpoint the source of a breach, and react
+accoridingly. 
+
+At TIPL, users login with their google accounts. Since we do not handle the authentication process, hackers would be unable to 
+acquire the users passwords in the scenario that our systems are breached. Google has robust security implementations that
+make their authentication process extremely secure and hard to circunvent. 
+
+Internally, we have a clear separation of duties through role based access control. Within our Google Cloud Platform (which is the true
+backbone of TIPL), we meticulously assigned roles based on the different areas we need covered. Each service account has limited access
+based only on what they truly need, nothing more. 
