@@ -43,6 +43,9 @@ regarding an error could provide an attacker with the necessary data to carry ou
 By knowing whats causing an error, an attacker can get a better idea of vulnerabilities or angles of attack they can 
 use to exploit other system flaws.
 
+In order to protect our site against this issue, we opted for displaying general error codes with minimal information.
+This way, an attacker will not be informed on what is causing an error code. 
+
 
 
 
