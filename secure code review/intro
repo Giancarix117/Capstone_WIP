@@ -47,5 +47,7 @@ In order to protect our site against this issue, we opted for displaying general
 This way, an attacker will not be informed on what is causing an error code. 
 
 
+-Injection flaws
+
 
 
