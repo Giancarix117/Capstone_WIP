@@ -8,7 +8,7 @@ all types of injection flaws.
 
 I will now cover all of these in depth
 
-failures in identification, authentication and access control;
+-failures in identification, authentication and access control;
 
 Mishandling of identification and authentication can prove fatal for any web app out there. If an attacker manages to authenticate
 as a root user, the damage they can cause could be irreversible. However, with proper access control policies, even if they
@@ -24,3 +24,12 @@ make their authentication process extremely secure and hard to circunvent.
 Internally, we have a clear separation of duties through role based access control. Within our Google Cloud Platform (which is the true
 backbone of TIPL), we meticulously assigned roles based on the different areas we need covered. Each service account has limited access
 based only on what they truly need, nothing more. 
+
+
+-potential exposure of sensitive data;
+
+Exposure of sensitive data is a huge risk that every company has to address no matter what. If a hacker gets their hands on 
+sensitive data, it could spell the end for any company. With all the hardcore regulations and policies the government has in place
+to ensure companies protect PII, it leaves no choice but to protect it at all costs.
+
+At TIPL, we store as little PII as possible. CHECK WITH CHATGPT. 
