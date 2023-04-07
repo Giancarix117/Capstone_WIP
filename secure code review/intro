@@ -32,4 +32,17 @@ Exposure of sensitive data is a huge risk that every company has to address no m
 sensitive data, it could spell the end for any company. With all the hardcore regulations and policies the government has in place
 to ensure companies protect PII, it leaves no choice but to protect it at all costs.
 
-At TIPL, we store as little PII as possible. CHECK WITH CHATGPT. 
+At TIPL, we store as little PII as possible. CHECK WITH CHATGPT. In case of a breach, the attacker would only acquire the user's emails,
+which while still being PII, the damage done is kept to a minimum. Furthermore, all of our databases are encrypted with SHA-256,
+one of the most robusts encryption algorithms currently available.
+
+-inadequate error handling;
+
+Inadequate error handling by itself does not cause much damage, if any. However, displaying too much information 
+regarding an error could provide an attacker with the necessary data to carry out an attack.
+By knowing whats causing an error, an attacker can get a better idea of vulnerabilities or angles of attack they can 
+use to exploit other system flaws.
+
+
+
+
