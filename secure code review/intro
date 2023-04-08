@@ -50,4 +50,14 @@ This way, an attacker will not be informed on what is causing an error code.
 -Injection flaws
 
 
+Like many other vulnerabilities ,injections carry a serious risk. Through injections, hackers can execute a plethora of attacks
+, such as leaking private data, modifying information stored in databases, injecting malware, and many other malicious actions.
+However, we have implemented security measures to defend against this sort of attack. 
 
+SQL injections occur when an attacker executes SQL commands in order to exploit the database. At TIPL, we have safeguards against this.
+The database is not accessible to the public, since it resides within the GCP. The only way an attacker could access it is by
+acquiring the service account login in charge of managing the databse. We have also implemented security features in order to keep this from happening,
+such as strict password policies. 
+
+XXS (cross site scripting, which was previously covered) is another type of injection attack where malicious code is executed
+through functions encountered within the site. As previously stated, we have methods of preventing this, such as input sanitazion.'
