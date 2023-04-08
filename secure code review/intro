@@ -61,3 +61,6 @@ such as strict password policies.
 
 XXS (cross site scripting, which was previously covered) is another type of injection attack where malicious code is executed
 through functions encountered within the site. As previously stated, we have methods of preventing this, such as input sanitazion.'
+
+There are many other types of injection attacks, such as remote code execution, header injections, and many more. Rest assured
+, we have implemented the necessary precautions to avoid falling victim to such moves.
