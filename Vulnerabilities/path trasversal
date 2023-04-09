@@ -1,0 +1,2 @@
+These allow attackers to read files held on a system, allowing them to read source code, sensitive protected system files, and capture credentials held within configuration files, and can even lead to remote code execution. The impact can range from malware execution to an attacker gaining full control of a compromised machine.
+
