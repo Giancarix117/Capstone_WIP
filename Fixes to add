@@ -1,0 +1,21 @@
+My main role in the creation of TIPL was working as the purple team. I conducted both offensive and defensive activities. 
+It was my first time undertaking a project of this type, so it was daunting at first. I decided to split the workload in segments
+to make things easier to manage. My first priority was secure code development. Through clear communications with the developers, \
+I ensured they were following the security best practices, such as input validation, avoiding dead code, looking for instances where a buffer overflow may occur, and many other practices.
+This was crucial, since it is much more efficient and effective to focus on security early on, rather than implementing it later. 
+
+The next stage was securing Google Cloud Platform. This was the backend of our web app, and where all the magic took place.
+First, I configured the services we were running on the cloud, such as the MySQL database, the firewall, etc.
+Although we were not storing any PII besides emails, any and all PII is heavily protected by regulations such as GDPR. 
+I made sure the database was not accessible to anyone other than the services that needed access (also called least privilege).
+By using stored procedures, we greatly reduced the risk of sql injections. 
+The GCP firewall further prevented unwanted connections, provided filtering, and helped keep our cloud safe and protected. 
+
+Finally, setting up the IAM permissions was the most tedious task when it came to GCP. I had to create roles for each service account in order to make
+sure we were sticking to least privilege. Every service account would have access to whatever service they managed and nothing more. This would make sure that if an account was breached,\
+the attack surface would be greately limited to only what that account had access to. This made lateral movement much harder as well. 
+
+Once the GCP was properly configured, I moved to the final phase, securing the web application. Implementing a WAF
+(Web App Firewall) was common sense, since this would provide aditional filtering and block malicious connections. 
+I ensured we had input validation in our search bar to avoid any XSS attacks. 
+We also implemented X-XSRF-Tokens
