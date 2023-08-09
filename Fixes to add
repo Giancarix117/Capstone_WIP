@@ -22,3 +22,9 @@ I ensured we had input validation in our search bar to avoid any XSS attacks.  I
 After setting up the security for the web app, I atempted a penetration test. The site held up marvelously. I ran a DOS attack which peaked at over
 20,000 requests per second and it had no problems handling the load. I ran multiple fuzzing tests, such as looking for possible XSS vulnerabilities or the opportunity of a buffer overflow, among other tests.
 
+Some general tips in order to enjoy TIPL safely are as follows:
+1. Always keep your passwords secure. Make sure they are 8-12 characters long, and include Uppercase letters as well as numbers and special characters.
+2. If possible, use a VPN to keep your data encrypted and safe. 
+3. Ensure that the TIPL website you are using has a valid HTTPS certificate. This will prove the site is reliable and that the communication is being encrypted. 
+4. Always double check the URL to avoid typosquatting. 
+
