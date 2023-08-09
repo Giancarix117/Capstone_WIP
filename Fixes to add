@@ -17,5 +17,8 @@ the attack surface would be greately limited to only what that account had acces
 
 Once the GCP was properly configured, I moved to the final phase, securing the web application. Implementing a WAF
 (Web App Firewall) was common sense, since this would provide aditional filtering and block malicious connections. 
-I ensured we had input validation in our search bar to avoid any XSS attacks. 
-We also implemented X-XSRF-Tokens
+I ensured we had input validation in our search bar to avoid any XSS attacks.  I also implemented X-XSRF-Tokens to help us mitigate risks of CSRF attacks. 
+
+After setting up the security for the web app, I atempted a penetration test. The site held up marvelously. I ran a DOS attack which peaked at over
+20,000 requests per second and it had no problems handling the load. I ran multiple fuzzing tests, such as looking for possible XSS vulnerabilities or the opportunity of a buffer overflow, among other tests.
+
